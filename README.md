@@ -1,7 +1,7 @@
-An adapter for using [tRPC](https://trpc.io) with [Nitro](https://nitro.unjs.io)
+# An adapter for using [tRPC](https://trpc.io) with [Nitro](https://nitro.unjs.io)
 
 ## install
-```
+```bash
 // npm
 npm i trpc-adapter-nitro
 
@@ -14,7 +14,7 @@ pnpm add trpc-adapter-nitro
 
 ## usage
 
-```
+```typescript
 // file: /routes/[...trpc].ts
 
 import { appRouter } from ".";
